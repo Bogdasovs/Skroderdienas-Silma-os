@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kapitāls | Kapitāls Silmačos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header compact-header">
+    <nav class="nav">
+      <a href="index.html">Sākums</a>
+      <a href="skroderdienas.html">Skroderdienas Silmačos</a>
+      <a href="kapitals.html">Kapitāls</a>
+      <div class="nav-authors">
+        <button class="authors-button" type="button" aria-haspopup="true">Autori</button>
+        <div class="authors-menu" aria-label="Autoru sadaļas">
+          <a href="autori.html#blaumanis-author">Blaumanis</a>
+          <a href="autori.html#marx-author">Markss</a>
+        </div>
+      </div>
+      <a href="../assets/avoti.html">Avoti</a>
+      <a href="viedoklis.html">Mūsu viedoklis</a>
+      <button class="nav-hide" type="button" aria-label="Paslēpt izvēlni">×</button>
+    </nav>
+    <button class="nav-show" type="button" aria-label="Parādīt izvēlni" hidden>☰</button>
+    <div class="hero">
+      <p class="eyebrow">Kārlis Markss</p>
+      <h1>Kapitāls</h1>
+      <p>Darbs par kapitālismu, darbu, precēm, peļņu un sabiedrības ekonomisko uzbūvi.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="book-section kapitals">
+      <div class="section-label">2. grāmata</div>
+      <div class="book-heading">
+        <div>
+          <p class="eyebrow">Kārlis Markss</p>
+          <h2>“Kapitāls”</h2>
+          <p class="release">
+            Izdošanas datums:
+            <button id="capitalDate" class="date-button" type="button" aria-expanded="false">1867. gads</button>
+          </p>
+        </div>
+        <img class="book-photo" src="assets/Kapitals.jpg" alt="Grāmatas “Kapitāls” vāks">
+      </div>
+
+      <div id="capitalImage" class="image-popup" hidden>
+        <figure class="popup-card capital-date-image">
+          <button class="popup-close" type="button" aria-label="Aizvērt attēlu">×</button>
+          <img src="assets/hqdefault.jpg" alt="Pievienotā fotogrāfija">
+        </figure>
+      </div>
+
+      <div class="info-grid">
+        <article class="info-block">
+          <h3>Par ko ir grāmata?</h3>
+          <p>
+            “Kapitāls” analizē kapitālistisko ekonomiku: preces, naudu, darbu,
+            peļņu, ražošanu un sabiedrības šķiru attiecības. Tā nav viegla
+            lasāmviela, bet tā ietekmēja politiku, ekonomiku un filozofiju.
+          </p>
+        </article>
+        <article class="info-block">
+          <h3>Par autoru</h3>
+          <p>
+            Kārlis Markss bija vācu filozofs, ekonomists un sabiedrības
+            kritiķis. Viņš pētīja, kā ekonomiskās attiecības ietekmē cilvēku
+            dzīvi, darbu un varu sabiedrībā.
+          </p>
+        </article>
+        <article class="info-block">
+          <h3>Galvenie jēdzieni un “personāži”</h3>
+          <ul>
+            <li><strong>Strādnieks</strong> - cilvēks, kurš pārdod savu darbu.</li>
+            <li><strong>Kapitālists</strong> - ražošanas līdzekļu īpašnieks.</li>
+            <li><strong>Prece</strong> - lieta, kurai ir lietošanas un maiņas vērtība.</li>
+            <li><strong>Kapitāls</strong> - vērtība, kas tiek izmantota peļņas iegūšanai.</li>
+            <li><strong>Virsprodukta vērtība</strong> - Marksa skaidrojums par peļņas rašanos.</li>
+          </ul>
+        </article>
+        <article class="info-block">
+          <h3>Jēdzienu apraksts</h3>
+          <p>
+            Markss rāda, ka ekonomika nav tikai skaitļi. Viņš uzsver, ka aiz
+            precēm un naudām stāv cilvēku darbs. Tāpēc grāmatas centrā ir
+            jautājums: kas iegūst labumu no darba rezultātiem?
+          </p>
+        </article>
+        <article class="info-block quote-block">
+          <h3>Citāts</h3>
+          <blockquote>“Prece vispirms ir ārējs priekšmets, kas apmierina cilvēka vajadzības.”</blockquote>
+          <p class="note">Brīvs tulkojums no “Kapitāla” sākuma domas.</p>
+        </article>
+      </div>
+
+      <article class="work-detail capital-work-detail">
+        <h3>Izdošana, vieta un laikmets</h3>
+        <p>
+          “Kapitāla” pirmais sējums vācu valodā tika izdots 1867. gadā
+          Hamburgā, izdevniecībā Otto Meissner. Tas bija vienīgais sējums, kas
+          iznāca Marksa dzīves laikā.
+        </p>
+        <p>
+          Otrais un trešais sējums tika sagatavoti pēc Marksa nāves no viņa
+          pierakstiem. Tos sakārtoja un publicēja Frīdrihs Engelss: otrais
+          sējums iznāca 1885. gadā, bet trešais - 1894. gadā.
+        </p>
+        <h4>Laikmets</h4>
+        <p>
+          Darbs radās 19. gadsimta industriālās sabiedrības laikā, kad Eiropā
+          strauji attīstījās rūpnīcas, dzelzceļi, pilsētas un algots darbs.
+          Šajā laikā īpaši aktuāli kļuva jautājumi par strādnieku stāvokli,
+          kapitāla varu un sociālo nevienlīdzību.
+        </p>
+        <h4>Laikmeta zīmes</h4>
+        <ul>
+          <li>rūpnīcu un mašīnu ražošanas attīstība;</li>
+          <li>strādnieku šķiras pieaugums pilsētās;</li>
+          <li>garas darba dienas un smagi darba apstākļi;</li>
+          <li>kapitālistu un strādnieku interešu konflikts;</li>
+          <li>naudas, preču un tirgus nozīmes pieaugums;</li>
+          <li>ekonomisko krīžu un nabadzības problēmas;</li>
+          <li>politisko kustību un arodbiedrību veidošanās.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Šo vietni izveidoja Vsevolods Bogdašovs un Radzivils Moročēvskis 9a.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

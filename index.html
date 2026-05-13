@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kapitāls Silmačos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#silmacos">Skroderdienas Silmačos</a>
+      <a href="#kapitals">Kapitāls</a>
+      <div class="nav-authors">
+        <button class="authors-button" type="button" aria-haspopup="true">
+          Autori
+        </button>
+        <div class="authors-menu" aria-label="Autoru sadaļas">
+          <a href="#blaumanis-author">Blaumanis</a>
+          <a href="#marx-author">Markss</a>
+        </div>
+      </div>
+      <a href="assets/avoti.html">Avoti</a>
+      <a href="#viedoklis">Mūsu viedoklis</a>
+      <button class="nav-hide" type="button" aria-label="Paslēpt izvēlni">×</button>
+    </nav>
+    <button class="nav-show" type="button" aria-label="Parādīt izvēlni" hidden>☰</button>
+    <div class="hero">
+      <p class="eyebrow">Latviešu valodā sagatavota informācija</p>
+      <h1>Divi ļoti atšķirīgi, bet nozīmīgi darbi</h1>
+      <p>
+        Rūdolfa Blaumaņa luga “Skroderdienas Silmačos” un Kārļa Marksa
+        “Kapitāls” rāda divas dažādas pasaules: latviešu lauku sadzīvi un
+        sabiedrības ekonomisko uzbūvi.
+      </p>
+    </div>
+    </header>
+
+  <main>
+    <section id="avoti" class="book-section sources" onclick="window.location.href='assets/avoti.html'" style="cursor: pointer;">
+      <div class="section-label">Avoti</div>
+      <div class="book-heading">
+        <div>
+          <p class="eyebrow">Izmantotie avoti</p>
+          <h2>Kur mēs ņemam informāciju</h2>
+          <p class="release">
+            Publiski pieejami materiāli par Rūdolfu Blaumani un “Skroderdienas Silmačos”, tostarp enciklopēdijas un literatūras resursi.
+          </p>
+        </div>
+      </div>
+
+      <div class="info-grid">
+        <article class="info-block">
+          <h3>Galvenie avoti</h3>
+          <p>Informācija tika apkopota no dažādiem publiski pieejamiem un izglītojošiem avotiem.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="silmacos" class="book-section silmacos">
+      <div class="section-label">1. grāmata / luga</div>
+      <div class="book-heading">
+        <div>
+          <p class="eyebrow">Rūdolfs Blaumanis</p>
+          <h2>“Skroderdienas Silmačos”</h2>
+          <p class="release">Izdošanas un skatuves sākums: 1902. gads</p>
+        </div>
+        <img
+          class="book-photo"
+          src="assets/Skroderdienas Silmačos.jpg"
+          alt="Grāmatas “Skroderdienas Silmačos” vāks"
+        >
+      </div>
+
+      <div class="info-grid">
+        <article class="info-block">
+          <h3>Par ko ir darbs?</h3>
+          <p>
+            “Skroderdienas Silmačos” ir jautra un dzīva luga par gatavošanos
+            Jāņiem Silmaču mājās. Tajā savijas mīlestība, pārpratumi,
+            greizsirdība, saimnieciskas rūpes un latviešu svētku tradīcijas.
+          </p>
+        </article>
+
+        <article class="info-block">
+          <h3>Par autoru</h3>
+          <p>
+            Rūdolfs Blaumanis bija latviešu rakstnieks, dramaturgs un
+            žurnālists. Viņa darbos cilvēki nav tikai “labi” vai “slikti”:
+            viņiem ir bailes, cerības, spītība un sirds siltums.
+          </p>
+        </article>
+
+        <article class="info-block">
+          <h3>Galvenie personāži</h3>
+          <ul>
+            <li><strong>Antonija</strong> - Silmaču saimniece, lepna un emocionāla.</li>
+            <li><strong>Aleksis</strong> - jauns cilvēks, kura jūtas rada konfliktus.</li>
+            <li><strong>Elīna</strong> - maiga, sirsnīga un nozīmīga mīlestības līnijā.</li>
+            <li><strong>Dūdars</strong> - skroderis, kas darbā ienes humoru un kustību.</li>
+            <li><strong>Rūdis un Kārlēns</strong> - komiski tēli, kas pastiprina lugas jautrību.</li>
+          </ul>
+        </article>
+
+        <article class="info-block">
+          <h3>Personāžu apraksts</h3>
+          <p>
+            Antonija bieži rīkojas pēc jūtām, tāpēc kļūst gan smieklīga, gan
+            cilvēcīga. Elīna ir klusa, bet viņas izvēles ir svarīgas. Dūdars un
+            citi skroderi rada sadzīvisku troksni, kas padara lugu ļoti dzīvu.
+          </p>
+        </article>
+
+        <article class="info-block quote-block">
+          <h3>Citāts</h3>
+          <blockquote>
+            “Jāņi nāk, un Silmačos viss kļūst skaļāks, jautrāks un sarežģītāks.”
+          </blockquote>
+          <p class="note">Brīvs, kopsavilkuma tipa citāts par lugas noskaņu.</p>
+        </article>
+      </div>
+
+      <article id="blaumanis-author" class="author-detail">
+        <div class="author-detail-head">
+          <div>
+            <h3>Rūdolfs Blaumanis (1863-1908)</h3>
+            <p>
+              Rūdolfs Blaumanis bija ievērojams latviešu rakstnieks, dramaturgs un
+              žurnālists, viens no nozīmīgākajiem latviešu literatūras klasiķiem.
+            </p>
+          </div>
+          <img
+            src="https://commons.wikimedia.org/wiki/Special:FilePath/R%20Blaumanis.jpg"
+            alt="Rūdolfs Blaumanis"
+          >
+        </div>
+
+        <div class="detail-grid">
+          <div>
+            <h4>Dzimšana</h4>
+            <p>
+              Rūdolfs Blaumanis dzimis 1863. gada 1. janvārī Ērgļu pagasta
+              “Brakos”, Vidzemē. Tagad šī vieta ir pazīstama kā Braku muzejs.
+            </p>
+          </div>
+
+          <div>
+            <h4>Nāve</h4>
+            <p>
+              Viņš nomira 1908. gada 4. septembrī Somijā, Takaharju sanatorijā
+              no tuberkulozes. Rakstnieks apglabāts Rīgā, Meža kapos.
+            </p>
+          </div>
+
+          <div>
+            <h4>Galvenie darbi</h4>
+            <ul>
+              <li>luga “Skroderdienas Silmačos”</li>
+              <li>novele “Nāves ēnā”</li>
+              <li>novele “Purva bridējs”</li>
+              <li>luga “Indrāni”</li>
+              <li>stāsts “Raudupiete”</li>
+              <li>komēdija “Trīnes grēki”</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>2 interesanti fakti</h4>
+            <ul>
+              <li>
+                Rūdolfs Blaumanis rakstīja ne tikai latviešu valodā, bet arī
+                vācu valodā, jo tajā laikā tā bija plaši lietota Baltijā.
+              </li>
+              <li>
+                Luga “Skroderdienas Silmačos” ir viena no visbiežāk
+                iestudētajām lugām Latvijā, īpaši Jāņu laikā.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <div class="divider" aria-hidden="true">
+      <span></span>
+      <strong>Skroderdienas Silmačos / Kapitāls</strong>
+      <span></span>
+    </div>
+
+    <section id="kapitals" class="book-section kapitals">
+      <div class="section-label">2. grāmata</div>
+      <div class="book-heading">
+        <div>
+          <p class="eyebrow">Kārlis Markss</p>
+          <h2>“Kapitāls”</h2>
+          <p class="release">
+            Izdošanas datums:
+            <button id="capitalDate" class="date-button" type="button" aria-expanded="false">
+              1867. gads
+            </button>
+          </p>
+        </div>
+        <img
+          class="book-photo"
+          src="assets/Kapitals.jpg"
+          alt="Grāmatas “Kapitāls” vāks"
+        >
+      </div>
+
+      <figure id="capitalImage" class="hidden-date-image" hidden>
+        <img src="assets/hqdefault.jpg" alt="Pievienotā fotogrāfija">
+      </figure>
+
+      <div class="info-grid">
+        <article class="info-block">
+          <h3>Par ko ir grāmata?</h3>
+          <p>
+            “Kapitāls” analizē kapitālistisko ekonomiku: preces, naudu, darbu,
+            peļņu, ražošanu un sabiedrības šķiru attiecības. Tā nav viegla
+            lasāmviela, bet tā ietekmēja politiku, ekonomiku un filozofiju.
+          </p>
+        </article>
+
+        <article class="info-block">
+          <h3>Par autoru</h3>
+          <p>
+            Kārlis Markss bija vācu filozofs, ekonomists un sabiedrības
+            kritiķis. Viņš pētīja, kā ekonomiskās attiecības ietekmē cilvēku
+            dzīvi, darbu un varu sabiedrībā.
+          </p>
+        </article>
+
+        <article class="info-block">
+          <h3>Galvenie jēdzieni un “personāži”</h3>
+          <ul>
+            <li><strong>Strādnieks</strong> - cilvēks, kurš pārdod savu darbu.</li>
+            <li><strong>Kapitālists</strong> - ražošanas līdzekļu īpašnieks.</li>
+            <li><strong>Prece</strong> - lieta, kurai ir lietošanas un maiņas vērtība.</li>
+            <li><strong>Kapitāls</strong> - vērtība, kas tiek izmantota peļņas iegūšanai.</li>
+            <li><strong>Virsprodukta vērtība</strong> - Marksa skaidrojums par peļņas rašanos.</li>
+          </ul>
+        </article>
+
+        <article class="info-block">
+          <h3>Jēdzienu apraksts</h3>
+          <p>
+            Markss rāda, ka ekonomika nav tikai skaitļi. Viņš uzsver, ka aiz
+            precēm un naudām stāv cilvēku darbs. Tāpēc grāmatas centrā ir
+            jautājums: kas iegūst labumu no darba rezultātiem?
+          </p>
+        </article>
+
+        <article class="info-block quote-block">
+          <h3>Citāts</h3>
+          <blockquote>
+            “Prece vispirms ir ārējs priekšmets, kas apmierina cilvēka vajadzības.”
+          </blockquote>
+          <p class="note">Brīvs tulkojums no “Kapitāla” sākuma domas.</p>
+        </article>
+      </div>
+
+      <article id="marx-author" class="author-detail marx-detail">
+        <div class="author-detail-head">
+          <div>
+            <h3>Kārlis Markss (1818-1883)</h3>
+            <p>
+              Kārlis Markss bija vācu filozofs, ekonomists, žurnālists un
+              sabiedrības teorētiķis. Viņa idejas spēcīgi ietekmēja politiku,
+              ekonomikas domāšanu un 19.-20. gadsimta vēsturi.
+            </p>
+          </div>
+          <img
+            src="https://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Marx.jpg"
+            alt="Kārlis Markss"
+          >
+        </div>
+
+        <div class="detail-grid">
+          <div>
+            <h4>Dzimšana</h4>
+            <p>
+              Kārlis Markss dzimis 1818. gada 5. maijā Trīrē, Vācijā. Viņš
+              studēja tiesības, filozofiju un vēsturi.
+            </p>
+          </div>
+
+          <div>
+            <h4>Nāve</h4>
+            <p>
+              Markss nomira 1883. gada 14. martā Londonā. Viņš apglabāts
+              Haigeitas kapsētā Londonā.
+            </p>
+          </div>
+
+          <div>
+            <h4>Galvenie darbi</h4>
+            <ul>
+              <li>“Kapitāls”</li>
+              <li>“Komunistiskās partijas manifests”</li>
+              <li>“Vācu ideoloģija”</li>
+              <li>“Algotais darbs un kapitāls”</li>
+              <li>“Ekonomiski filozofiskie manuskripti”</li>
+              <li>“Grundrisse”</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>2 interesanti fakti</h4>
+            <ul>
+              <li>
+                Daudzus darbus Markss veidoja kopā ar Frīdrihu Engelsu, kurš
+                viņu arī finansiāli atbalstīja.
+              </li>
+              <li>
+                Strādājot pie “Kapitāla”, Markss daudz pētīja ekonomikas
+                avotus Britu muzeja lasītavā Londonā.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    <section id="viedoklis" class="opinion">
+      <h2>Mūsu viedoklis</h2>
+      <div class="opinion-grid">
+        <article>
+          <h3>Par “Skroderdienām Silmačos”</h3>
+          <p>
+            Mūsuprāt, šī luga ir interesanta, jo tajā nopietnas jūtas ir
+            parādītas ar humoru. Darbs šķiet dzīvs un viegli saprotams, jo
+            personāži strīdas, iemīlas, kļūdās un svin tāpat kā īsti cilvēki.
+            Īpaši patīk Jāņu noskaņa, kas padara lugu latvisku un siltu.
+          </p>
+        </article>
+
+        <article>
+          <h3>Par “Kapitālu”</h3>
+          <p>
+            “Kapitāls” ir grūtāks darbs, bet tas ir vērtīgs, jo liek domāt par
+            darbu, naudu un nevienlīdzību. Mums šķiet, ka šo grāmatu nevar
+            lasīt kā parastu stāstu, tomēr tās idejas palīdz saprast, kā
+            sabiedrībā rodas bagātība un kāpēc cilvēki par to strīdas.
+          </p>
+        </article>
+      </div>
+
+      <h3>Salīdzinājums</h3>
+      <p>
+        Mums šķiet, ka “Skroderdienas Silmačos” ir tuvāks un vieglāk uztverams
+        darbs, jo tajā ir humors, svētki un pazīstamas cilvēku emocijas.
+        “Kapitāls” ir sarežģītāks, bet tas liek domāt par darbu, naudu un
+        taisnīgumu sabiedrībā. Abi darbi ir nozīmīgi, jo palīdz labāk saprast
+        cilvēkus: viens caur sadzīvi un teātri, otrs caur ekonomiku un kritiku.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Šo vietni izveidoja Vsevolods Bogdašovs un Radzivils Moročēvskis 9a.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
